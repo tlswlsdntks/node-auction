@@ -1,0 +1,32 @@
+{
+  "name": "node-auction",
+  "version": "0.0.1",
+  "description": "노드 경매 시스템",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "author": "ZeroCho",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "morgan": "^1.10.0",
+    "multer": "^2.0.1",
+    "mysql2": "^3.14.2",
+    "node-schedule": "^2.1.1",
+    "nunjucks": "^3.2.4",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.37.7",
+    "sequelize-cli": "^6.6.3",
+    "socket.io": "^4.8.1",
+    "sse": "^0.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

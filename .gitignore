@@ -1,0 +1,30 @@
+# Logs
+logs/
+*.log
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Build output
+dist/
+build/
+*.o
+*.exe
+
+# Environment variables
+.env
+
+# IDE files and project settings
+.idea/
+.vscode/
+*.iml
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+
+# Temporary files
+*.tmp
+*~
+
+# Specific files to ignore
+my_secret_key.pem
